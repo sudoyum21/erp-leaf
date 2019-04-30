@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppComponent } from './app.component';
 
@@ -34,7 +35,8 @@ import { ScmModule } from './scm/scm.module';
     BiModule,
     FinanceModule,
     InventoryModule,
-    ScmModule
+    ScmModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
